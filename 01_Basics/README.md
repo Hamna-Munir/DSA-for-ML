@@ -65,6 +65,7 @@ python example1.py
 
 Try solving practice problems to reinforce concepts.
 ```
+---
 ⚡ Key Takeaways:
 
 Strong grasp of basics is critical for DSA & ML success
@@ -72,6 +73,6 @@ Strong grasp of basics is critical for DSA & ML success
 Writing clean, readable code from the start saves time later
 
 Complexity analysis helps you write efficient algorithms
-
+---
 Developed by — Hamna Munir 
-— Hamna Munir
+
