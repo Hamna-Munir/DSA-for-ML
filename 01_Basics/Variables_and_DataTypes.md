@@ -1,4 +1,138 @@
-{
-  "filename": "Variables_and_DataTypes.md",
-  "content": "# Variables and Data Types\n\n## Objective\nThis document explains variables, memory storage, and core data types used in programming. A strong understanding of data types is essential for Data Structures, Algorithms, and Machine Learning.\n\n---\n\n## What is a Variable?\nA variable is a named container used to store data in memory so it can be reused and modified during program execution.\n\n```python\nx = 10\nname = \"Hamna\"\n```\n\n---\n\n## How Variables Work\n- Variables reference memory locations\n- Data types define memory usage and allowed operations\n- Correct usage improves performance and reliability\n\n---\n\n## Data Types in Python\n\n### Numeric Types\n\n| Type | Example | Description |\n|------|---------|-------------|\n| int | 10 | Whole numbers |\n| float | 3.14 | Decimal numbers |\n| complex | 2+3j | Complex values |\n\n```python\na = 5\nb = 3.14\nc = 2 + 3j\n```\n\n---\n\n### Boolean Type\nUsed for logical operations and decision making.\n\n```python\nis_trained = True\n```\n\n---\n\n### String Type\nUsed to store text data.\n\n```python\ncourse = \"Machine Learning\"\nprint(course.upper())\n```\n\n---\n\n### Sequence Types\n\n#### List (Mutable)\n```python\nfeatures = [1, 2, 3]\nfeatures.append(4)\n```\n\n#### Tuple (Immutable)\n```python\nshape = (224, 224)\n```\n\n#### Range\n```python\nindexes = range(5)\n```\n\n---\n\n### Mapping Type (Dictionary)\nStores data in key-value pairs.\n\n```python\ndataset = {\n  \"name\": \"Iris\",\n  \"samples\": 150\n}\n```\n\n---\n\n### Set Type\nStores unique values only.\n\n```python\nlabels = {0, 1, 2}\n```\n\n---\n\n## Mutable vs Immutable\n\n| Mutable | Immutable |\n|--------|-----------|\n| list | int |\n| dict | float |\n| set | string |\n| | tuple |\n\nUnderstanding mutability helps prevent bugs in ML pipelines and hashing operations.\n\n---\n\n## Type Conversion\n\n```python\nx = int(\"10\")\ny = float(5)\nz = str(100)\n```\n\n---\n\n## Importance in Machine Learning\n- Features must be numeric\n- Labels require consistent data types\n- Incorrect types can break models\n- Memory efficiency impacts scalability\n\n```python\nimport numpy as np\nX = np.array([1.2, 3.4, 5.6])\ny = np.array([0, 1, 1])\n```\n\n---\n\n## Common Mistakes\n- Mixing strings with numbers\n- Ignoring type conversion\n- Using mutable objects as dictionary keys\n\n---\n\n## Practice Problems\n1. Create variables of all basic data types\n2. Convert a string to an integer\n3. Store feature names in a list\n4. Create a dataset dictionary\n\n---\n\n## Summary\n- Variables store data\n- Data types define behavior\n- Correct types are essential for ML\n- Mutability awareness prevents errors\n\n---\n\n## Author\n**— Hamna Munir**\n"
+# Variables and Data Types
+
+## Objective
+This section explains variables, memory storage, and core data types used in programming.  
+A strong understanding of data types is essential for **Data Structures, Algorithms, and Machine Learning**.
+
+---
+
+## What is a Variable?
+A **variable** is a named container used to store data in memory so it can be reused and modified during program execution.
+
+```python
+x = 10
+name = "Hamna"
+```
+How Variables Work
+Variables reference memory locations
+
+Data types define memory usage and allowed operations
+
+Correct usage improves performance and reliability
+
+Data Types in Python
+Numeric Types
+Type	Example	Description
+int	10	Whole numbers
+float	3.14	Decimal numbers
+complex	2+3j	Complex values
+
+```
+a = 5
+b = 3.14
+c = 2 + 3j
+```
+Boolean Type
+Used for logical operations and decision making.
+
+```
+is_trained = True
+```
+String Type
+Used to store text data.
+
+```
+course = "Machine Learning"
+print(course.upper())
+```
+Sequence Types
+List (Mutable)
+```
+features = [1, 2, 3]
+features.append(4)
+```
+Tuple (Immutable)
+```
+shape = (224, 224)
+```
+Range
+```
+indexes = range(5)
+```
+Mapping Type (Dictionary)
+Stores data in key–value pairs.
+
+```
+dataset = {
+  "name": "Iris",
+  "samples": 150
 }
+```
+Set Type
+Stores unique values only.
+
+```
+labels = {0, 1, 2}
+```
+
+Mutable vs Immutable
+Mutable	Immutable
+list	int
+dict	float
+set	string
+tuple
+
+Understanding mutability helps prevent bugs in ML pipelines and hashing operations.
+
+Type Conversion
+Used during data preprocessing and cleaning.
+
+```
+x = int("10")
+y = float(5)
+z = str(100)
+```
+Importance in Machine Learning
+
+- Features must be numeric
+
+- Labels require consistent data types
+
+- Incorrect types can break models
+
+- Memory efficiency impacts scalability
+
+```
+import numpy as np
+
+X = np.array([1.2, 3.4, 5.6])
+y = np.array([0, 1, 1])
+```
+Common Mistakes
+- Mixing strings with numbers
+
+- Ignoring type conversion
+
+- Using mutable objects as dictionary keys
+
+Practice Problems
+- Create variables of all basic data types
+
+- Convert a string to an integer
+
+- Store feature names in a list
+
+- Create a dataset dictionary
+
+Summary
+- Variables store data
+
+- Data types define behavior
+
+- Correct types are essential for ML
+
+- Mutability awareness prevents errors
+
+  Author
+
+— Hamna Munir
