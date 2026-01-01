@@ -57,7 +57,8 @@ model_name = "LogisticRegression"
 # Boolean
 is_training = True
 ```
-Composite Data Types
+### Composite Data Types
+```python
 # List
 features = [1.2, 3.4, 5.6]
 
@@ -72,59 +73,68 @@ hyperparameters = {
 
 # Set
 unique_classes = {0, 1, 2}
-5. Common Interview Problems
+```
+---
+
+## 5. Common Interview Problems
 
 Typical interview questions related to variables and data types:
 
-Difference between list and tuple
+- Difference between list and tuple
 
-Mutable vs immutable data types
+- Mutable vs immutable data types
 
-How Python handles dynamic typing
+- How Python handles dynamic typing
 
-When to use a dictionary vs a list
+- When to use a dictionary vs a list
 
-Common bugs caused by incorrect data types
+- Common bugs caused by incorrect data types
 
 Interviewers expect clarity in both concept and usage.
 
-6. ML Connection
+---
+
+## 6. ML Connection
 
 Variables and data types are deeply connected to Machine Learning:
 
-Feature vectors are stored in lists, arrays, or tensors
+- Feature vectors are stored in lists, arrays, or tensors
 
-Model weights and gradients use floating-point numbers
+- Model weights and gradients use floating-point numbers
 
-Dictionaries store model configurations and metadata
+- Dictionaries store model configurations and metadata
 
-Incorrect data types can cause silent ML bugs or performance issues
+- Incorrect data types can cause silent ML bugs or performance issues
 
 Understanding data types prepares you for working with:
 
-NumPy arrays
+- NumPy arrays
 
-Pandas DataFrames
+- Pandas DataFrames
 
-PyTorch and TensorFlow tensors
+- PyTorch and TensorFlow tensors
 
-7. Practice Tasks
+ ---
 
-Create variables for a simple ML experiment:
+## 7. Practice Tasks
 
-dataset size
+1. Create variables for a simple ML experiment:
 
-learning rate
+- dataset size
 
-number of epochs
+- learning rate
 
-Store model hyperparameters in a dictionary
+- number of epochs
 
-Convert a list of integers into floats
+2. Store model hyperparameters in a dictionary
 
-Identify which data types are mutable and immutable
+3. Convert a list of integers into floats
 
-Write a short script showing type changes using type()
+4. Identify which data types are mutable and immutable
 
-Author:
+5. Write a short script showing type changes using type()
+
+---
+
+**Author:**  
 Hamna Munir
