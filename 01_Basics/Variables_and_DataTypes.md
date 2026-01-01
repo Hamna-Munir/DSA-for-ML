@@ -1,6 +1,6 @@
 # Variables and Data Types
 
-## 1. Concept Explanation (Simple English)
+## 1. Concept Explanation 
 Variables are used to **store data in a program**, and data types define **what kind of data** a variable can hold.  
 In simple terms:
 - A **variable** is a container
