@@ -18,3 +18,8 @@ unique_labels = {0, 1, 2}
 print(type(epochs))
 print(type(features))
 print(type(hyperparameters))
+
+# Output:
+# <class 'int'>
+# <class 'list'>
+# <class 'dict'>
