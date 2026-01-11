@@ -13,6 +13,7 @@ there is **no NULL at the end**.
 ## 2. Visual / Example
 
   ┌───────────────┐
+                 
                   |
   ▼               
 
