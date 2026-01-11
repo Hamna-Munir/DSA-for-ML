@@ -14,7 +14,6 @@ there is **no NULL at the end**.
 
   ┌───────────────┐
                  
-                  |
   ▼               
 
 [ Data | Next ] → [ Data | Next ] → [ Data | Next ]
