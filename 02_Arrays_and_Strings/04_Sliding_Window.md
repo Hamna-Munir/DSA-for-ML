@@ -12,7 +12,9 @@ Instead of recalculating values repeatedly, the window updates efficiently, maki
 Consider an array and a window size of 3:
 
 [2, 4, 6, 8, 10]
+
 └───────┘
+
 window
 
 
