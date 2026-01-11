@@ -103,7 +103,7 @@ Doubly linked lists inspire structures used in:
 
 - Graph traversal optimizations
 
-  Understanding bidirectional links helps in building efficient ML system pipelines.
+Understanding bidirectional links helps in building efficient ML system pipelines.
 
 ---
 
