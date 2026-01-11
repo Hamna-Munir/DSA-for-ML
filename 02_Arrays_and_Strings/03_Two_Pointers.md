@@ -1,6 +1,6 @@
 # Two Pointers Technique
 
-## 1. Concept Explanation (Simple English)
+## 1. Concept Explanation 
 The Two Pointers technique uses **two indices (pointers)** to traverse a data structure—usually an array or a string—efficiently.
 
 Instead of using nested loops, two pointers move strategically to reduce time complexity. This technique is especially useful for **sorted arrays**, substring problems, and pair-based conditions.
